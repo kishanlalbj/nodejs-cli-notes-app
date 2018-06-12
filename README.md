@@ -1,6 +1,6 @@
-# nodejs-cli-notes-app
+# Node CLI Notepad application
   
-  This node application is still under development.
+  Node CLI application executes tasks by running certain commands. This node application is still under development.
   
 ### Installation.
 
