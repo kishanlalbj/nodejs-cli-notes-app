@@ -1,4 +1,4 @@
-# Node CLI Notepad application
+# Node CLI Notepad Application
   
   Node CLI application executes tasks by running certain commands. This node application is still under development.
   
