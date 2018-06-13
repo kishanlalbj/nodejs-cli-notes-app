@@ -14,8 +14,16 @@ $ node app
 ```
 
 ### Usage.
-
+## Add note
 Execute this command to add a new note
 
 ```sh
-$ node app add --title "example-title"
+$ node app add --title="some title" --body="some body"
+```
+
+## List All Notes
+Execute this command to list all notes
+
+```sh
+$ node app list
+```

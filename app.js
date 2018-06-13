@@ -22,13 +22,18 @@ const yargs = require('yargs')
 
 var action = process.argv[2]
 // var data = process.argv[3]
-console.log("Process:" ,process.argv)
-console.log("Yargs ",yargs.argv)
+// console.log("Process:" ,process.argv)
+// console.log("Yargs ",yargs.argv)
 
 if(action === 'add') {
     console.log("Adding new note")
-    console.log(notes.addNote(yargs.argv.title))
+    notes.addNote(yargs.argv.title, yargs.argv.body)
 } 
 else if(action === 'list') {
-
+    let allNotes = notes.getAllNotes()
+    console.log(allNotes)
+    // allNotes.filter((index,note)=> {
+    //     console.log(index+1 +" "+ note.title)
+    //     console.log(" "+ note.body)        
+    // })
 }
