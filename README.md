@@ -1,6 +1,6 @@
 # Node CLI Notepad Application
   
-  Node CLI application executes tasks by running certain commands. This node application is still under development.
+  Node CLI application executes tasks by running certain commands. This node application is still under development. (DEV branch)
   
 ### Installation.
 
@@ -10,7 +10,6 @@ Install dependencies
 $ git clone https://github.com/kishanlalbj/nodejs-cli-notes-app.git
 $ cd nodejs-cli-notes-app
 $ npm install
-$ node app
 ```
 
 ### Usage.
